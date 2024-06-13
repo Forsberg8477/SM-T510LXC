@@ -65,9 +65,9 @@ export KCONFIG_NOTIMESTAMP=true
 export ARCH=arm64;
 export SUB_ARCH=arm64;
 
-# G920T
-if [ "$TARGET" = "G920T" ] ; then
-	export KERNEL_CONFIG="custom_defconfig";
+# SM-T510
+if [ "$TARGET" = "SM-T510" ] ; then
+	export KERNEL_CONFIG="exynos_510_defconfig";
 fi;
 
 # G925T
